@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro item</title>
+    <link rel="stylesheet" href="cadastroitem.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+           <a href="catalogo.html"><div class="logocabecalho"><img src="imagens/logocabecalho.png" alt=""></div></a> 
+            <h1>CADASTRAR ITEM</h1>
+            
+        </header>
+        <article>
+            <form action="catalogo.html">
+            <div class="formbox">
+                <div class="formdireito">
+                <label for="item">NOME DO ITEM</label>
+            <input type="text" id="inomeitem" name="txtnometem" >
+         
+         <label for="iresumo">RESUMO DO ITEM</label>
+         <textarea name="" cols="30" rows="10" id="iresitem"></textarea>
+        </div>
+
+        <div class="formesquerdo">
+           
+            <select name="slcategoria" id="icategoria">
+                <option value="C">Categorias</option>
+                <option value="F">Filmes</option>
+                <option value="M">Músicas</option>
+                <option value="S">Séries</option>
+                <option value="D">Desenhos</option>
+                <option value="L">Livros</option>
+            </select>
+        </div>
+    </div>
+
+       
+            <input type="submit" value="Cadastrar" class="btn">
+         
+            </form>
+            
+        </article>
+    </div>
+</body>
+</html>

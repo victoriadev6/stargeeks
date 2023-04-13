@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+
+}
+
+.container{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 184px 840px;
+    grid-template-areas: 
+    "c"
+    "p";
+}
+
+header{
+    background-color: #38479C;
+    grid-area: "c";
+     
+}
+
+.logocabecalho{
+    margin-left: 31px;
+    margin-top: 62px;
+}
+
+main{grid-area: "p"; 
+    display: flex;
+   background-image: url(imagens/imagem1.jpg);
+    height: 100%;
+    background-size: 100%;
+    
+
+}
+.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+.principal{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.texto{
+   
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+color: #FFFFFF;
+
+}
+
+
+.btn{
+    width: 561px;
+    height: 80px;
+    background-color: #38479C;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
+    
+
+}
+.btn a{
+    font-family: 'Vermin Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+
+}

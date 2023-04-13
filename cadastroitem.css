@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        background: linear-gradient(180deg, #2D397D 13.33%, #96DAD9 65.84%, #79CECB 100%);
+        height: 1024px;
+
+    
+    }
+
+    .container{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 184px 840px;
+        grid-template-areas: 
+        "c"
+        "i";
+    }
+
+    header{
+        background-color: #38479C;
+    grid-area: "c";
+    display: flex;
+    align-items: center;
+}
+
+article{
+    grid-area: "i";
+    width: 100%;
+ 
+}
+
+header > h1{
+    position: absolute;  
+  left: 50%;
+  color: white;
+  
+  }
+form{
+    display: flex;
+    width: 100%;
+    padding-top: 22px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-around;
+    
+}
+
+.formbox{
+    display: flex;
+    width: 100%;
+}
+
+ label{
+    margin: 10px 0;
+   
+    
+
+
+}
+#inomeitem {
+    
+    font-size: 3rem;
+    background: #38479C;
+    border-radius: 20px;
+    width: 80%;
+}
+
+
+
+form  label{
+font-size: 2rem;
+color: white;
+
+
+}
+
+
+#iresitem{
+background: #38479C;
+border-radius: 20px;
+top: 94px;
+width: 80%;
+color: white;
+}
+
+.formdireito{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   margin: 0 3%;
+  
+}
+
+#icategoria{
+    
+width: 416px;
+height: 80px;
+left: 958px;
+top: 224px;
+background: #38479C;
+box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+border-radius: 20px;
+font-size: 2rem;
+color: white;
+
+}
+
+.btn{
+  
+    width: 416px;
+    height: 80px;
+    left: 958px;
+    top: 734px;
+    
+    background: #38479C;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-size: 2rem;
+  text-decoration: none;
+  color: white;
+
+}
+
+.formesquerdo{
+margin-top: 2%;
+
+}
+
+input:hover{
+    background-color: #00BAB4;
+  }

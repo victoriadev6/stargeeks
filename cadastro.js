@@ -5,6 +5,7 @@ const email = document.getElementById("email");
 const senha = document.getElementById("senha");
 const senha2 = document.getElementById("senha");
 
+
 function verificarEmail(email, evento){
     let dados = JSON.parse(localStorage.getItem("bd"));
     if (dados == null){

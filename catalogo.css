@@ -46,6 +46,11 @@ header > h1{
     color: #00BAB4;
   }
 
+.info{
+  display: flex;
+  justify-content: space-between;
+}
+
 .linha1{
     color: white;
     padding-top: 22px;
@@ -56,6 +61,7 @@ header > h1{
     grid-template-columns:1fr ;
     padding-top: 22px;
     padding-left: 22px;
+    gap: 5px;
     
 
   }
@@ -101,3 +107,59 @@ header > h1{
     display: flex;
     justify-content: space-between;
   }
+
+  #filme{
+    display: flex;
+    gap: 25px;
+  }
+
+  #musica{
+    display: flex;
+    gap: 25px;
+  }
+
+  #livro{
+    display: flex;
+    gap: 25px;
+  }
+
+  #filme > img {
+    box-sizing: border-box;
+position: absolute;
+width: 106.67px;
+height: 160px;
+left: 41px;
+top: 233px;
+border: 5px solid #000000;
+  }
+
+
+#musica > img {
+  box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 28px;
+top: 507px;
+border: 5px solid #000000;
+}
+
+
+
+
+  #livro > img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 106.67px;
+    height: 160px;
+    left: 41px;
+    top: 233px;
+    border: 5px solid #000000;
+  }
+
+  #img > i {
+    justify-content: space-between;
+  }
+
+  
